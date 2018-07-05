@@ -1,0 +1,37 @@
+body{
+    background: -webkit-radial-gradient(center, ellipse cover, #feffff 0%,#99CCFF 100%);
+    background: -o-radial-gradient(center, ellipse cover, #feffff 0%,#99CCFF 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #feffff 0%,#99CCFF 100%);
+    padding: 10px 100px;
+}
+.main{
+    text-align: center;
+    border:2px solid silver;
+    margin:20px auto;
+    padding:2em 2em 2em;
+}
+.header{
+    margin: 10px;
+    position: relative;
+}
+.menu>a{
+    border-radius: 3px;
+    border:2px solid silver;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.news{
+    text-align: left;
+    margin: 20px;
+    display: -moz-groupbox;
+    
+}
+.news>div>img{
+    float: left;
+}
+.signout{
+    float: right;
+    top:-50px;
+    position: relative;
+}
